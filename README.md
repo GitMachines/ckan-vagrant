@@ -16,6 +16,11 @@ In order to make the getting started part easier I created this shell script to 
 7. Add to following line to `/etc/hosts`:  `192.168.19.97 ckan.lo`
 8. Open [http://ckan.lo](http://ckan.lo) in your browser.
 
+## Gothas and Warnings
+
+- Be sure to be running Vagrant 1.3.5, which fixes a bug in the `config.vm.hostname` directive. 
+- Note that you need to manually adjust your host computer's `/etc/hosts` file. There is no way to automate this in Vagrant (and you probably would not want to anyway becuase it is the host computer's file.)
+
 ## What You Will See
 
 On Mac you will be prompted for your password by vagrant to grant permission for the nfs network share. Give your account password for your Mac.
