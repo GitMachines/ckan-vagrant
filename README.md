@@ -8,7 +8,7 @@ In order to make the getting started part easier I created this shell script to 
 ## Setup
 
 1. Install [Virtualbox](https://www.virtualbox.org) (version 4.2.6+)
-2. Install [vagrant](http://www.vagrantup.com) (version 1.3.4+)
+2. Install [vagrant](http://www.vagrantup.com) (version 1.3.5+)
 3. Clone this repository `git clone git@github.com:GitMachines/ckan-vagrant.git`
 4. Move to the directory with your terminal application `cd ckan-vagrant/`
 5. Create the instance `vagrant up`
